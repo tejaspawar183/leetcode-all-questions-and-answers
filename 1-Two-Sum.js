@@ -4,6 +4,7 @@
  * @return {number[]}
  */
 const twoSum = (nums, target) => {
+    // this is new branch i created
     const arr = nums.map((el, idx) => [el, idx]).sort((a, b) => a[0] - b[0]);
 
     let left = 0;
